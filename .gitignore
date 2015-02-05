@@ -1,0 +1,14 @@
+*.o
+.DS_Store
+.*.swp
+.svn
+*.orig
+*.rej
+*~
+.#*
+*#
+.emacs.desktop*
+TAGS*~
+_old
+cscope.*
+tags

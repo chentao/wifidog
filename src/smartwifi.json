@@ -1,0 +1,31 @@
+{
+    "services": {
+        "account": "",
+        "device_id": "",
+        "active_date": "",
+        "servers": {
+            "auths": [{
+                "path": "/api10/",
+                "ssl_available": "no",
+                "ssl_port": "443",
+                "hostname": "test-auth2.51iwifi.com",
+                "http_port": "80"
+            }],
+            "platforms": [{
+                "path": "/api10/",
+                "ssl_available": "no",
+                "ssl_port": "443",
+                "hostname": "test-www2.51iwifi.com",
+                "http_port": "80"
+            }],
+            "portals": [{
+                "path": "/api10/",
+                "ssl_available": "no",
+                "ssl_port": "443",
+                "hostname": "test-portal2.51iwifi.com",
+                "http_port": "80"
+            }]
+        }
+    },
+    "result": "OK"
+}

@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>$title</title>
+<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+
+<style>
+body {
+  margin: 10px 60px 0 60px; 
+  font-family : bitstream vera sans, sans-serif;
+  color: #6a6a6a;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:active {
+  color: #ffffff;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+#header {
+  height: 30px;
+  background-color: #3cb099;
+  padding: 20px;
+  font-size: 20pt;
+  text-align: center;
+  border: 2px solid #3cb099;
+  border-bottom: 0;
+  color: #ffffff;
+}
+
+#header h2 {
+  margin: 0pt;
+}
+
+#menu {
+  width: 200px;
+  float: right;
+  background-color: #3cb099;
+  border: 2px solid #3cb099;
+  font-size: 80%;
+  min-height: 300px;
+}
+
+#menu h2 {
+  margin: 0;
+  background-color: #ffffff;
+  text-align: center;
+  color: #6a6a6a;
+}
+
+#copyright {
+}
+
+#content {
+  padding: 20px;
+  border: 2px solid #3cb099;
+  min-height: 300px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="header">
+    <h2>$title</h2>
+</div>
+
+<div id="menu">
+
+
+    <h2>Info</h2>
+    <ul>
+    <li>Version: @WIFIDOG_VERSION@
+
+    <li>Node ID: $nodeID
+    </ul>
+    <br>
+
+    <h2>Menu</h2>
+    <ul>
+    <li><a href='/smartwifi/status'>Status</a>
+    <li><a href='/smartwifi/about'>About</a>
+    <li><a href='http://www.51iwifi.com'>SmartWiFi Alliance</a>
+    </ul>
+</div>
+
+<div id="content">
+<h2>$message</h2>
+</div>
+
+<div id="copyright">
+Copyright (C) 2015 Zoom Networks Inc.
+</div>
+
+
+</body>
+</html>
+
